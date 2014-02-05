@@ -1,6 +1,6 @@
-= Remotipart
+= Remotipart: Rails jQuery File Upload
 
-Remotipart is a Ruby on Rails gem enabling AJAX file uploads with jQuery in Rails 3.0 and Rails 3.1 remote forms.
+Remotipart is a Ruby on Rails gem enabling AJAX file uploads with jQuery in Rails 3 and Rails 4 remote forms.
 This gem augments the native Rails jQuery remote form functionality enabling asynchronous file uploads with little to no modification to your application.
 
 * {Homepage and Demos}[http://www.alfajango.com/blog/remotipart-rails-gem/]
@@ -8,12 +8,12 @@ This gem augments the native Rails jQuery remote form functionality enabling asy
 
 == Dependencies
 
-* {Rails 3}[http://github.com/rails/rails]
-* {The jquery-rails gem}[http://rubygems.org/gems/jquery-rails], which really just installs {jQuery}[http://jquery.com] and the {Rails jQuery driver (jquery-ujs)}[https://github.com/rails/jquery-ujs]
+* {Rails 3 or Rails 4}[http://github.com/rails/rails]
+* {The jquery-rails gem}[http://rubygems.org/gems/jquery-rails] (included in Rails 3 and Rails 4 by default), which installs {jQuery}[http://jquery.com] and the {Rails jQuery driver (jquery-ujs)}[https://github.com/rails/jquery-ujs]
 
 == Installation
 
-<b>Your app should be using jquery-rails gem v1.0.12 or above.</b>
+<b>Your app should be using jquery-rails gem v2.3.0 or above.</b>
 
 If you're using an old version of the jquery-rails gem,
 make sure you have a supported jquery-ujs (rails.js or jquery_ujs.js) version from {VERSION_COMPATIBILITY}[https://github.com/JangoSteve/remotipart/blob/master/VERSION_COMPATIBILITY.rdoc].
@@ -23,7 +23,7 @@ make sure you have a supported jquery-ujs (rails.js or jquery_ujs.js) version fr
 
   * Add this line to your GEMFILE (use the appropriate version from the compatibilty chart if needed)
 
-   gem 'remotipart', '~> 1.0'
+   gem 'remotipart', '~> 1.2'
 
   * And run
 
@@ -139,4 +139,4 @@ Thank you to {Adam Kerr}[https://github.com/ajrkerr] for helping move over to th
 
 == Copyright
 
-Copyright (c) 2011 {Steve Schwartz}[https://github.com/JangoSteve], {Greg Leppert}[https://github.com/leppert]. See LICENSE for details.
+Copyright (c) 2013 {Steve Schwartz}[https://github.com/JangoSteve], {Greg Leppert}[https://github.com/leppert]. See LICENSE for details.
